@@ -43,13 +43,7 @@ var jsonData = {
             "fun1": "点播",
             "fun2": "播放"
         },
-	 {
-            "title": 7,
-            "desc": "弘玑V5认证",
-            "img": "../../images/cert/V5-base.png",
-            "fun1": "点播",
-            "fun2": "播放"
-        },
+	
 	 {
             "title": 8,
             "desc": "HisenseSql认证",

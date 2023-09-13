@@ -18,7 +18,7 @@ var jsonData = {
 	 {
             "title": 3,
             "desc": "阿里云ESC-管理认证",
-            "img": "../../images/cert/esc-mag.png",
+            "img": "../../images/cert/ecs-mag.png",
             "fun1": "点播",
             "fun2": "播放"
         },
