@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="GB2312">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>json文件数据渲染</title> 
+  
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+  <script type="text/javascript" src="data.json"></script>
+  <style>
+    td{
+      width: 120px;
+      padding-left: 35px;
+    }
+  </style>
+</head>
+ 
+<body>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <td>姓名</td>
+          <td>身份证</td>
+          <td>材料</td>
+          <td>id</td>
+        </tr>
+      </thead >
+      <tbody id="jsonTip">
+ 
+      </tbody>
+    </table>
+  </div>
+ 
+ 
+  <script>
+    // 页面加载完后立刻调用getDate方法
+    $(function () {
+      
+	 console.log("json文件数据", jsonData);
+	 getShow(jsonData);
+    })
+	  function getShow(data){
+     var $jsontip=$("#jsonTip");
+          // 定义一个变量存储要显示的数据
+          var s="";
+          // 清空数据
+          $jsontip.empty();
+          // 遍历拿到的数据（此处采用each方法，也可以采用for循环）
+		  for(let i=0;i<data.total;i++){
+			var info=data.list[i];
+			s = "<tr><td>" + info.title + "</td><td>" + info.desc + "</td><td>" +
+            info.fun1 + "</td><td>" + info.fun2 + "</td></tr>";
+            // 将要展示的数据追加到页面
+            $jsontip.append(s);
+		  }
+          
+    } 
+    
+  </script>
+ 
+</body>
+</html>

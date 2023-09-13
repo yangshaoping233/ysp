@@ -1,0 +1,61 @@
+var jsonData = {
+    "total": 10,
+    "list": [
+        {
+            "title": 1,
+            "desc": "阿里云Clouder认证",
+            "img": "../../images/cert/Clouder.png",
+            "fun1": "点播",
+            "fun2": "播放" 
+        },
+         {
+            "title": 2,
+            "desc": "阿里云ECS认证",
+            "img": "../../images/cert/ecs.png",
+            "fun1": "点播",
+            "fun2": "播放"
+        },
+	 {
+            "title": 3,
+            "desc": "阿里云ESC-管理认证",
+            "img": "../../images/cert/ecs-mag.png",
+            "fun1": "点播",
+            "fun2": "播放"
+        },
+	 {
+            "title": 4,
+            "desc": "阿里云Python认证",
+            "img": "../../images/cert/Python.png",
+            "fun1": "点播",
+            "fun2": "播放"
+        },
+	 {
+            "title": 5,
+            "desc": "阿里云Web认证",
+            "img": "../../images/cert/web.png",
+            "fun1": "点播",
+            "fun2": "播放"
+        },
+	 {
+            "title": 6,
+            "desc": "弘玑RPA认证",
+            "img": "../../images/cert/V5.png",
+            "fun1": "点播",
+            "fun2": "播放"
+        },
+	 {
+            "title": 7,
+            "desc": "弘玑V5认证",
+            "img": "../../images/cert/V5-base.png",
+            "fun1": "点播",
+            "fun2": "播放"
+        },
+	 {
+            "title": 8,
+            "desc": "HisenseSql认证",
+            "img": "../../images/cert/hisenseSql.png",
+            "fun1": "点播",
+            "fun2": "播放"
+        } 
+    ]
+}
